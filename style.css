@@ -103,6 +103,16 @@
   .header__logo {
     padding: 0;
   }
+  .heder__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .header {
+    padding-bottom: 40px;
+  }
+  .header__body {
+    padding-top: 80px;
+  }
 }
 /* pack */
 .pack {
@@ -193,6 +203,13 @@
     align-items: center;
     text-align: center;
   }
+  .top__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .pack {
+    padding: 60px 0;
+  }
 }
 /* educ */
 .educ {
@@ -266,6 +283,13 @@
     width: 100%;
     max-width: initial;
   }
+  .educ__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .educ {
+    padding: 50px 0;
+  }
 }
 /* video */
 .video {
@@ -338,6 +362,11 @@
   .video__list {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  @medid (max-width: 700px) {
+    .video {
+      padding: 50px 0;
+    }
   }
 }
 /* about */
@@ -512,6 +541,10 @@
 @media (max-width: 700px) {
   .teach__card {
     min-width: initial;
+    margin-top: 30px;
+  }
+  .teach {
+    padding: 50px 0;
   }
 }
 /* courses */
@@ -634,6 +667,14 @@ svg:hover {
 .client__inp:hover {
   background-color: rgba(0, 0, 0, 0.096);
 }
+@media (max-width: 700px) {
+  .client {
+    padding: 80px 0;
+  }
+  .teach {
+    padding: 50px 0;
+  }
+}
 /* links */
 .links {
   padding: 50px 0;
@@ -689,6 +730,7 @@ svg:hover {
     justify-content: center;
   }
 }
+
 .footer {
   padding: 25px 0;
   background: #fafafa;
